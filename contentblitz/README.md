@@ -9,7 +9,6 @@ cd contentblitz
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env
 # Edit .env: `OPENAI_API_KEY` (required) and `SERPAPI_API_KEY` (required when `SERPAPI_ENABLED=1`).
 ```
 
