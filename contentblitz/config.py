@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = "k-proj-WPODLzTA8TpZOzbLx2cX7PcnvX75YnphcoLBkGdfyq3C47SYic49M3M_tMEBPY6B-xYJWN66M7T3BlbkFJ8UaM3mAOESOoDs_k9EffOD88BJTT3AoOQjHEke3JqzR8fxh7E3O0IOTx-6vJAiY_3TqZ8jvsEA"
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "")
 PERPLEXITY_ENABLED = os.getenv("PERPLEXITY_ENABLED", "0").lower() in ("1", "true", "yes")
 
@@ -15,7 +15,7 @@ OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 PERPLEXITY_MODEL = os.getenv("PERPLEXITY_MODEL", "sonar-pro")
 IMAGE_MODEL = os.getenv("IMAGE_MODEL", "dall-e-3")
 
-SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY", "")
+SERPAPI_API_KEY = "4db203d87f37bdedb9885f0e8185e18fbeef81fbe9f45885ab8f4085c5c06218"
 SERPAPI_ENABLED = os.getenv("SERPAPI_ENABLED", "1").lower() in ("1", "true", "yes")
 SERPAPI_ENGINE = os.getenv("SERPAPI_ENGINE", "google")
 
