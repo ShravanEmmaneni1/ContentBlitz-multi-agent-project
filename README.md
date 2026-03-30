@@ -39,3 +39,8 @@ Optional env: `OPENAI_MODEL`, `SERPAPI_ENGINE`, `SERPAPI_ENABLED`, `MCP_ENABLED`
 - `agents/` — one module per agent  
 
 Place `se401kbrochure.pdf` in the project root (or set `SE401K_BROCHURE_PATH`). Retrieval favors brochure chunks for blog, LinkedIn, and image prompts.
+
+## Features:
+- Full pipeline will interact with all other agents to get research information, generate blog, linkedIn text with hash tags and generate images.
+- Blog & LinkedIn modes will use research text if provided, if not provided use research agent to get the research information
+- In the bottom, provided **Agent Orchestration** section to list what agents are called in the process of providing the information to user.
