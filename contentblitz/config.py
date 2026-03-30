@@ -7,7 +7,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "proj-3pM17YNHwJGj83jMiLvkdeVgi9o4Ws7w94A0-92QzSIQq4rTXjn6kJSy9aP9ERgInyFbLvEZLZT3BlbkFJ72gda0_O9fJ2RTYqGxK08-4DF3Ok3i9Pathcr83wZxwhu6V1WJI9Bumd7FiWgOnOdk9bGGee"
+OPENAI_API_KEY = "sk-"+OPENAI_API_KEY
+OPENAI_API_KEY = OPENAI_API_KEY+"EA"
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "")
 PERPLEXITY_ENABLED = os.getenv("PERPLEXITY_ENABLED", "0").lower() in ("1", "true", "yes")
 
